@@ -1,0 +1,635 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 229, 84);
+    position: fixed;
+}
+.cab_nav{
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    top: 0px;
+}
+.cab_nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 50px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;  
+}
+.cab_nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nomb_logo{
+    width: 330px;
+    padding: 0px 20px;
+    float: left;
+    position: relative;
+    top: 5%;
+    left: 2%;
+    color: white;
+    font-size: 30px;
+}
+.logo_img{
+    width: 93px;
+    position: absolute;
+    transform: translateX(-1495px) translateY(-15px);
+}
+/*EFECTO PARALLAX*/
+.fondo_p{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/Procesadores\ Fondo_p.jpg);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_p h1{
+    font-size: 60px;
+    color: yellow;
+
+}
+.fondo_2{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/Teclado\ Fondo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_2 h1{
+    font-size: 60px;
+    color: yellow;
+
+}
+.fondo_3{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/Placa\ Base\ TUFGAMING.jpg.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_3 h1{
+    font-size: 60px;
+    color: yellow;
+}
+.fondo_4{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/RTX\ 2080Ti.jpg);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_4 h1{
+    font-size: 60px;
+    color: yellow;
+}
+.fondo_5{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/Memoria\ RAM\ Fondo.jpg.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_5 h1{
+    font-size: 60px;
+    color: yellow;
+}
+.fondo_6{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/Disco\ SSD\ Fondo.jpg.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_6 h1{
+    font-size: 60px;
+    color: yellow;
+}
+.fondo_7{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/Fuente\ alimentacion\ Fondo.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_7 h1{
+    font-size: 60px;
+    color: yellow;
+}
+.fondo_8{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/Monitor\ \ Fondo.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_8 h1{
+    font-size: 60px;
+    color: yellow;
+}
+.fondo_9{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/Raton\ Fondo.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_9 h1{
+    font-size: 60px;
+    color: yellow;
+}
+.fondo_10{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/Refrigeracion\ Fondo.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo_10 h1{
+    font-size: 60px;
+    color: yellow;
+}
+
+.seccion_f{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    color: black;
+    padding: 20px 0px;
+}
+.seccion{
+    background: url(Imagenes/Procesador\ Intel\ i5.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion h2, .seccion_1 h2, .seccion_2 h2{
+    font-size: 60px;
+    text-align: center;
+    padding: 400px 0px;
+    color: rgb(255, 255, 255);
+}
+.titulos{
+    font-size: 35px;
+    text-align: center;
+    padding: 60px 0px;
+}
+.parrafos{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.foot{
+    background-color: black;
+    margin-top: 0%;
+    width: 100%;
+    padding: 20px 0px;
+    position: relative;
+}
+.foot_p{
+    color: white;
+    text-align: center;
+}
+.marca{
+    background-color: rgb(223, 223, 3);
+}
+/*REPLICAS*/
+.seccion_1{
+    background: url(Imagenes/Procesador\ Intel\ i7.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_2{
+    background: url(Imagenes/Procesador\ Intel\ i9.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_3{
+    background: url(Imagenes/Procesador\ AMD\ Ryzen\ 5.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_4{
+    background: url(Imagenes/Procesador\ AMD\ Ryzen\ 7.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_5{
+    background: url(Imagenes/Procesador\ AMD\ Ryzen\ 9.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_6{
+    background: url(Imagenes/Procesador\ AMD\ TrheadRiper.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_7{
+    background: url(Imagenes/Teclado\ Newskill.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_8{
+    background: url(Imagenes/Teclado\ Tempest.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_9{
+    background: url(Imagenes/Teclado\ MSI.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_10{
+    background: url(Imagenes/Teclado\ HyperX.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_11{
+    background: url(Imagenes/Teclado\ Corsair.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_12{
+    background: url(Imagenes/Placa\ Base\ Gigabyte.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_13{
+    background: url(Imagenes/Placa\ Base\ ASUS\ ROG.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_14{
+    background: url(Imagenes/Placa\ Base\ MSI.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_15{
+    background: url(Imagenes/Grafica\ Zotac\ Gaming\ 3060.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_16{
+    background: url(Imagenes/Grafica\ Gigabyte\ 1660Ti.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_17{
+    background: url(Imagenes/Grafica\ EVGA\ 3090.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_18{
+    background: url(Imagenes/Memoria\ RAM\ Team\ Group.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_19{
+    background: url(Imagenes/Memoria\ RAM\ Corsair.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_20{
+    background: url(Imagenes/Memoria\ RAM\ G.Skill.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_21{
+    background: url(Imagenes/Disco\ SSD\ Samsung.jpg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_22{
+    background: url(Imagenes/Disco\ SSD\ M.2.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_23{
+    background: url(Imagenes/Discor\ SSD\ MSI.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_24{
+    background: url(Imagenes/Fuente\ Alimentacion\ Nfortec.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_25{
+    background: url(Imagenes/Fuente\ de\ alimentacion\ EVGA.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_26{
+    background: url(Imagenes/Fuente\ de\ Alimentacion\ Corsair.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_27{
+    background: url(Imagenes/Monitor\ MSI.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_28{
+    background: url(Imagenes/Monitor\ AOC.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_29{
+    background: url(Imagenes/Monitor\ Asus\ Rog\ Strix.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_30{
+    background: url(Imagenes/Raton\ Logitech.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_31{
+    background: url(Imagenes/Raton\ Corsair.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_32{
+    background: url(Imagenes/Raton\ SteelSeries.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_33{
+    background: url(Imagenes/Refrigeracion\ Corsair.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_34{
+    background: url(Imagenes/Refrigeracion\ NZXT.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_35{
+    background: url(Imagenes/Refrigeracion\ DeepCool.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
